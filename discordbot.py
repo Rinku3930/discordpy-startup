@@ -1,8 +1,10 @@
 from discord.ext import commands
 import os
 import traceback
+import datetime
+import random
 
-bot = commands.Bot(command_prefix='/')
+bot = commands.Bot(command_prefix='Ri')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
